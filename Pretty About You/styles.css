@@ -5,6 +5,10 @@ body {
     display: grid;
 }
 
+body h2 {
+   color: lightsalmon;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -19,7 +23,6 @@ nav a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    width: 100px;
 }
 
 nav a:hover {
