@@ -1,17 +1,17 @@
- body {
+body {
     background-color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     display: grid;
-
 }
- nav ul {
+
+nav ul {
     display: flex;
     list-style: none;
     background: maroon;
 }
 
- nav a {
+nav a {
     float: left;
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
@@ -20,13 +20,13 @@
     padding: 20px;
     text-decoration: none;
     width: 100px;
-  }
+}
 
- nav a:hover {
+nav a:hover {
     text-decoration: underline;
-  }
+}
 
- footer {
+footer {
     float: left;
     position: fixed;
     left: 0;
@@ -35,22 +35,22 @@
     background-color: maroon;
     color: white;
     text-align: center;
- }
+}
 
- .class{
+.class {
     display: inline-block;
     border: 2px solid white;
     padding: 20px;
- }
+}
 
- .hobbies {
+.hobbies {
     display: inline-block;
     border: 2px solid white;
     padding: 20px;
- }
+}
 
- .index {
+.index {
     display: inline-block;
     border: 2px solid white;
     padding: 20px;
- }
+}
