@@ -6,7 +6,7 @@
     overflow: auto;
   }
 
-  .navbar a {
+.navbar a {
     float: left;
     text-align: center;
     padding: 12px;
@@ -16,17 +16,17 @@
     font-size: 17px;
   }
 
-  .navbar a:hover {
+.navbar a:hover {
     background-color: #366355;
     border: 2px solid white;
   }
 
 
-  .active {
+.active {
     background-color: #43844d;
   }
   
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .navbar a {
       float: none;
       display: block;
@@ -39,12 +39,13 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
     background-color: #7a7e88;
     color: white;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
   .main {
     max-width: 1000px;
     margin: auto;
@@ -53,63 +54,63 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-
 .main h2{
-        color: white; 
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: left;
-        font-size: 28px;
-              }
-.half {
-  color: #eeebf2; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 19px;
-}
+    color: white; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 28px;
+  }
 
-  h1 {
+.half {
+    color: #eeebf2; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+  }
+
+h1 {
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     word-break: break-all;
   }
   
-  .row {
+.row {
     margin: 8px -16px;
   }
 
-  .row,
+.row,
 .row > .column {
-  padding: 8px;
-}
+    padding: 8px;
+  }
 
 .column {
     float: left;
     width: 25%;
   }
 
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  .content {
+.content {
     background-color: #eeebf2;
     padding: 10px;
   }
 
-  @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
   }
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+    width: 100%;
     }
   }
 
-  .serv h1 {
+.serv h1 {
     background-color: rgb(19 ,50, 51);
     background-color: rgba(19, 50, 51, 0.4);
     color: #eeebf2;
@@ -121,31 +122,30 @@
     padding: 20px;
   }
 
-    .end {
-      position: relative;
-      max-width: 800px;
-      margin: 0 auto;
-      border: 5px solid white;
-    }
+.end {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 5px solid white;
+  }
     
-    .end .endcontent {
-      position: absolute;
-      bottom: 0; 
-      background: rgb(19, 50, 51);
-      background: rgba(19, 50, 51, 0.6);
-      color: #f1f1f1;
-      width: 100%;
-      padding: 20px;
-    }
+.end .endcontent {
+    position: absolute;
+    bottom: 0; 
+    background: rgb(19, 50, 51);
+    background: rgba(19, 50, 51, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
 
-    .endcontent h1 {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
+.endcontent h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
   /*footer*/
 
-  footer {
+footer {
     float: left;
     position: fixed;
     left: 0;
@@ -156,63 +156,63 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-}
+  }
 
 
 /*Homepage CSS*/
 
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
 .bg-image {
-  height: 50%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .img1 { background-image: url("fresh.jpg"); }
 .img2 { background-image: url("mow.jpg"); }
 
 
 .james h1 {
-  background-color: rgb(19,50,51);
-  background-color: rgba(19,50,51, 0.4);
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 55px;
-  border: 10px solid #133233;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 400px;
-  padding: 20px;
-  text-align: center;
-}
+    background-color: rgb(19,50,51);
+    background-color: rgba(19,50,51, 0.4);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    border: 10px solid #133233;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
 
 .james p {
-  background-color: rgb(19,50,51);
-  background-color: rgba(19, 50, 51, 0.7);
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  border: 7px solid #133233;
-  position: fixed;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 400px;
-  padding: 20px;
-  text-align: center;
-}
+    background-color: rgb(19,50,51);
+    background-color: rgba(19, 50, 51, 0.7);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: 7px solid #133233;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
 
