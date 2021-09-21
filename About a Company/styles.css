@@ -1,3 +1,12 @@
+/*  
+    Courtney Fuerstenau 
+    9/19/2021
+    About a Company
+*/
+
+
+
+
 /*Navigation*/
 
 .navbar {
@@ -18,7 +27,7 @@
 
 .navbar a:hover {
     background-color: #366355;
-    border: 2px solid white;
+    border: 2px solid #eeebf2;
   }
 
 
@@ -41,12 +50,14 @@
   
 body {
     background-color: #7a7e88;
-    color: white;
+    color: #eeebf2;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .main {
+/* Green text for products */
+
+.main {
     max-width: 1000px;
     margin: auto;
     color: #366355;
@@ -54,8 +65,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+/* Services and Products headers */
+
 .main h2{
-    color: white; 
+    color: #eeebf2; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     font-size: 28px;
@@ -66,6 +79,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
   }
+
+/* Title for services and products */
 
 h1 {
     font-size: 50px;
@@ -110,6 +125,8 @@ h1 {
     }
   }
 
+/* Services and Products title edits */
+
 .serv h1 {
     background-color: rgb(19 ,50, 51);
     background-color: rgba(19, 50, 51, 0.4);
@@ -122,11 +139,13 @@ h1 {
     padding: 20px;
   }
 
+/* End photo and quote on services and products */
+
 .end {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    border: 5px solid white;
+    border: 5px solid #eeebf2;
   }
     
 .end .endcontent {
@@ -134,7 +153,7 @@ h1 {
     bottom: 0; 
     background: rgb(19, 50, 51);
     background: rgba(19, 50, 51, 0.6);
-    color: #f1f1f1;
+    color: #eeebf2;
     width: 100%;
     padding: 20px;
   }
@@ -143,22 +162,6 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  /*footer*/
-
-footer {
-    float: left;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #133233;
-    color: white;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-  }
-
-
 /*Homepage CSS*/
 
 body, html {
@@ -166,6 +169,8 @@ body, html {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+/* Image Scroll on Homepage */
 
 .bg-image {
     height: 50%; 
@@ -177,11 +182,12 @@ body, html {
 .img1 { background-image: url("fresh.jpg"); }
 .img2 { background-image: url("mow.jpg"); }
 
+/* Title on homepage */
 
 .james h1 {
     background-color: rgb(19,50,51);
     background-color: rgba(19,50,51, 0.4);
-    color: white;
+    color: #eeebf2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 55px;
@@ -198,10 +204,12 @@ body, html {
     text-align: center;
   }
 
+/* Homepage description paragraph */
+
 .james p {
     background-color: rgb(19,50,51);
     background-color: rgba(19, 50, 51, 0.7);
-    color: white;
+    color: #eeebf2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -216,3 +224,17 @@ body, html {
     text-align: center;
   }
 
+/*Footer*/
+
+footer {
+  float: left;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #133233;
+  color: #eeebf2;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
