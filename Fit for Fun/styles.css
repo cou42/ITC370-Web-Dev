@@ -1,0 +1,462 @@
+
+body { 
+  margin: 0; 
+  background-color: #002d37;
+}
+  
+
+/* Classes Calandar */
+table { 
+  width: 100%; 
+  box-sizing: border-box; 
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1); 
+  font-family: 'Ubuntu'; /*border-collapse: collapse;*/ 
+  border-spacing: 0; 
+  background-color: #002d37; 
+}
+  
+th, td { 
+  border: 2px solid rgb(125,162,168); 
+  box-sizing: border-box; 
+}  
+
+th { 
+  text-transform: uppercase; 
+  font-size:10px; 
+  font-weight:700; 
+  padding: 10px 0; 
+  color: rgba(255, 255, 255, 0.808); 
+  background-color: #121c1b; 
+  letter-spacing: 1px;
+  font-family: 'Ubuntu';
+}
+
+.navbar {
+  width: 100%;
+  background-color: #133233;
+  overflow: auto;
+}
+
+
+  
+td { 
+  width: 14.285%; 
+  transition: all 0.3s; 
+  font-size: 14px; 
+  color: rgba(255, 255, 255, 0.808); 
+  font-weight: 400; 
+  font-size: 14px; 
+  padding: 1.5% 1.5% 5%; 
+  vertical-align: initial; 
+  padding: 1.5% 0 ; 
+  height: 75px; 
+}
+  
+.day:hover { 
+  background-color: rgba(18,28,27); 
+  cursor:pointer; 
+}
+  
+.day p {
+  font-style:italic;
+}
+  
+span.number { 
+  margin-left: 10% 
+}
+  
+  
+td p {
+  margin-left: 10%
+}
+  
+/* Title Homepage */
+h1 {
+  color: white;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Homepage paragraph */
+.why {
+  color: white;
+  text-align: center;
+  background-color: rgb(125,162,168, 0.5);
+  border: 5px solid #e22610; 
+  font-family: 'Ubuntu';
+}
+  
+
+/* Slideshow container */
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+  
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+  
+  
+.pic {
+  width: 100%;
+}
+  
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #121c1b;
+}
+  
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(125,162,168);
+}
+  
+/* Caption text */
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+  
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: "Ubuntu";
+}
+  
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+  background-color: rgb(125, 162, 168);
+}
+  
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+/*Navigation*/
+  
+.navbar {
+  width: 100%;
+  background-color: #121c1b;
+  overflow: auto;
+}
+  
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+  
+.navbar a:hover {
+  background-color: rgb(125,162,168);
+  border: 2px solid white;
+}
+  
+.active {
+  background-color: #e22610;
+}
+  
+/* End photo and link */
+  
+.end {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 5px solid white;
+}
+      
+.end .endcontent {
+  position: absolute;
+  bottom: 0; 
+  background: rgb(19, 50, 51);
+  background: rgba(19, 50, 51, 0.6);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+  
+.endcontent h1 {
+  font-family: 'Ubuntu';
+  text-align: left;
+  color: white;
+}
+  
+.text h1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(19, 50, 51);
+  background: rgba(19, 50, 51, 0.6);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.foot {
+  float: left;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #121c1b;
+  color: white;
+  text-align: center;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+
+/*Sign up page*/
+.fieldset {
+  border: 0;
+  padding: 0;
+  font-family: 'Ubuntu';
+}
+
+fieldset h2 {
+  color:white;
+}
+    
+fieldset > div {
+  margin-bottom: 30px;
+}
+
+label {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+label span {
+  color: red;
+}
+
+
+input,
+select {
+  border: 1px solid white;
+  padding: 10px;
+  width: 200px;
+}
+
+select {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  color: white;
+  -webkit-appearance: none;
+  width: 100%;
+  font-family: 'Ubuntu';
+}
+
+option {
+  background-color: rgb(18, 28, 27);
+}
+
+.select-wrapper {
+  position: relative;
+  width: 222px;
+}
+        
+.select-wrapper:after {
+  content: '< >';
+  color: white;
+  font-size: 14px;
+  top: 8px;
+  right: 0;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: -1;
+}
+
+/* First Name field */
+.firstname input {
+  width: 439px;
+}
+
+.firstname {
+  color: white;
+}
+
+/* Last Name field */
+.lastname input {
+  width: 439px;
+}
+  
+.lastname {
+  color: white;
+}
+
+/* Email field */
+.email input {
+  width: 439px;
+}
+    
+.email {
+  color: white;
+}
+
+/* Phone field */
+.phone input {
+  width: 439px;
+}
+      
+.phone {
+  color: white;
+}
+
+/* Contact field */
+.contact input {
+  width: 439px;
+}
+        
+.contact {
+  color: white;
+}
+
+/* Time field */ 
+.time input {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+          
+.time {
+  color: white;
+}
+
+/*Classes offered field*/
+.checkbox input {
+  width: 439px;
+}
+            
+.checkbox {
+  color: white;
+}
+
+.preferred {
+  color: white;
+}
+
+.checkbox input {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+/*Button*/
+button {
+  border: 0;
+  width: 224px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #e22610;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+} 
+
+button:hover {
+  background: rgb(125,162,168); 
+}
+
+input:valid {
+  border: 2px solid rgb(40, 185, 40);
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+/* Thank You Page */
+.thank {
+  color: white;
+  margin: 20px;
+  font-family: 'Ubuntu';
+}
+
+.thank h1{
+  color:white;
+  text-align: left;
+
+}
+
+.thank h2 {
+  color: white;
+  font-size: 28px;
+}
+
+.thank h3{
+  color: #e22610;
+  font-size: 25px;
+}
+
+.thank p {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  color:#e22610;
+}
+
+

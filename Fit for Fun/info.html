@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Courtney Fuerstenau 9/19/2021-->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <title>Form</title>
+    </head>
+
+    <body>
+        <!--Navigation-->
+        <div class="navbar">
+            <nav>
+                <a class="active" href="index.html">HOME PAGE</a>
+                <a href="classes.html">CLASSES</a>
+                <a href="info.html">SIGN UP</a>
+            </nav>
+        </div>       
+        
+        <h1>SIGN UP FOR A COURSE</h1>
+       
+        <form action="thankyou.html" method="GET">
+          
+            <fieldset>
+                <h2>INFORMATION</h2>
+                <div class="firstname">
+                    <label for="firstname">First name: <span>*</span></label><br/>
+                    <input id="firstname" type="text" name="firstname" placeholder="Your first name" required />
+                </div>
+
+                <div class="lastname">
+                    <label for="lastname">Last name: <span> *</span></label><br/>
+                    <input id="lastname" type="text" name="lastname" placeholder="Your first name" required />
+                </div>
+
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input id="email" type="email" name="email"/>
+                </div>
+
+                <div class="phone">
+                    <label for="phone">Phone Number: </label>
+                    <input id="phone" type="text" name="phone"/>
+                </div>
+
+                <div class="contact">
+                        <label for="contact">Best Way to Reach:</label>
+                    <div class="select-wrapper">
+                        <select name="contact" id="contact">
+                            <option value="Email">Email</option>
+                            <option value="Phone Call">Phone Call</option>
+                            <option value="Owl">Owl</option>
+                            <option value="Text Message">Text Message</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <div class="checkbox">
+                    <p>Classes Offered:</p>
+                    <input id="class1" type="checkbox" name="class1"
+                    value="Aerobics" />
+                    <label for="class1">Aerobics</label>
+                </div>
+    
+                <div class="checkbox">
+                    <input id="class2" type="checkbox" name="class2"
+                    value="Cycling" />
+                    <label for="class2">Cycling</label>
+                </div>
+
+                <div class="checkbox">
+                    <input id="class3" type="checkbox" name="class3"
+                    value="Boxing" />
+                    <label for="class3">Boxing</label>
+                </div>
+
+                <div class="checkbox">
+                    <input id="class4" type="checkbox" name="class4"
+                    value="Zumba" />
+                    <label for="class4">Zumba</label>
+                </div>
+
+                <div class="preferred">
+                    <label for="time">Preferred Class Time: </label>
+                </div>  
+
+                <div class="time">
+                    <input id="time1" type="radio" name="time"
+                    value="AM" />
+                    <label for="time">AM</label>
+                </div>
+
+                <div class="time">
+                    <input id="time" type="radio" name="time"
+                    value="PM" />
+                    <label for="time">PM</label>
+                </div>
+            
+                <button type="submit">Submit</button>
+        
+            </fieldset>
+        </form>
+
+      <!--Footer-->
+        <footer class="foot">
+            <p>FIT FOR FUN FITNESS CLUB &#169; / (800)-000-0000 / fitforfitness@yahoo.com</p>
+        </footer>
+
+    </body>
+    
+</html>
