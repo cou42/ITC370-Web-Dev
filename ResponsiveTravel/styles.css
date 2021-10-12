@@ -1,103 +1,19 @@
+/* Responsive Travel CSS */
+/* Media Queries at end */
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: black;
 }
 
 body, html {
     overflow-x: hidden;
 }
 
-/* Media Queries */
-@media screen and (min-width: 568px) {
-    header {
-        display: flex;
-        align-items: center;
-    }
-    nav {
-        margin-left: 20px;
-    }
-    article {
-        columns: 100px 1;
-    }
-    .article2{
-        columns: 100px 1
-    }        
-}
-
-        
-        @media (max-height: 800px){
-            footer { position: relative; }
-            header { padding-top:40px; }
-        }
- 
-        
-        @media screen and (min-width: 200px) and (max-width: 650px) {
-            article {
-              background-color: plum;
-            }
-          }
-
-          @media screen and (min-width: 200px) and (max-width: 350px) {
-            section, .article2 {
-              text-align: left;
-            }
-          }
-
-          @media print {
-            nav, footer{
-            display: none;
-            }
-article, section, .main {
-width: 100%;
-padding: 0;
-margin: 0;
-display: block;
-page-break-inside: avoid;
-
-           }
-        }
-
-
-           @media screen and (min-width: 200px) and (max-width:800px) {
-            .column {
-            display: grid;
-            width: 100%;
-            columns: 100px 1;
-            }
-            }
-
-@media screen and (max-width: 320px) {
-article h1, section h2, .paris h1 {
-    font-size: 25px;
-} 
-
-}
-
-
-        
-
-        
-        
-        
-        @media screen and (max-width: 800px) {
-        
-            .footer-left,
-            .footer-center,
-            .footer-right{
-                display: block;
-                width: 100%;
-                margin-bottom: 40px;
-                text-align: center;
-            }
-        
-
-        }
-
-
-body {
-    background-color: black;
-}
-        
 header {
     text-align: center;
     background-color: #232027;
@@ -334,7 +250,6 @@ footer {
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
-    margin: 35px;
     font-family: "Ubuntu";
 }
 
@@ -367,6 +282,7 @@ footer {
     margin-bottom: 20px;
 }
 
+
 .footer-icons a{
     display: inline-block;
     width: 35px;
@@ -381,5 +297,81 @@ footer {
     margin-right: 3px;
     margin-bottom: 5px;
 }
-        
-        
+
+/* Media Queries */
+
+@media screen and (min-width: 568px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+    nav {
+        margin-left: 20px;
+    }
+    article {
+        columns: 100px 1;
+    }
+    .article2{
+        columns: 100px 1
+    }        
+}
+     
+@media screen and (min-width: 200px) and (max-width: 650px) {
+    article {
+        background-color: plum;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 350px) {
+    section, .article2 {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    article h1, section h2, .paris h1 {
+        font-size: 25px;
+    } 
+}
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
+    .footer-left, .footer-center, .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .column {
+        display: grid;
+        width: 100%;
+        columns: 100px 1;
+    }
+}
+
+@media (max-height: 800px){
+    footer { 
+        position: relative;
+    }
+    header { 
+        padding-top:40px; 
+    }
+}
+
+@media print {
+    nav, footer{
+        display: none;
+    }
+
+    article, section, .main {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        page-break-inside: avoid;
+        color: black;
+    }
+    .main h3, section h2 {
+        color: black;
+    }
+}
