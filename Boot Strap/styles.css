@@ -3,6 +3,10 @@ body {
     background-color: #5cacb4;
 }
   
+.carousel-caption p {
+  font-size: 20px;
+}
+
 .heading{
     text-align: center;
     color: white;
