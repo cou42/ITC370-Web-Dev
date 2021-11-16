@@ -1,14 +1,13 @@
-
- .img2:hover {
+.img2:hover {
     box-shadow: 2px 2px 4px 2px rgb(53, 198, 255);
  }
 
- img {
+img {
      margin: 20px;
  }
 
 
- .img2 {
+.img2 {
     border: 3px solid rgb(38, 0, 255);
     border-radius: 4px;
     width: 150px;
