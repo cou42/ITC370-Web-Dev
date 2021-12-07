@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>The Great Rally-X Race!</title>
+  </head>
+  
+  <body>
+    <div>
+      <h1 class="text">Welcome to the Great Rally-X Race!</h1>
+      <h4 class="text2">Click the stop light to begin</h4>
+    </div>
+        
+    <img id ="imageOne" src ="redlight.png" alt="red light" onclick = "swapImage(); startRace();"/>
+    
+    <div id="container"> 
+      <div id="redcar" class="car"> </div>
+      <hr />
+      <div id="bluecar" class="car"></div>
+    </div>
+
+    <div id="redcarwin">
+      <img src="rallyx1.jpg" alt="red car" width = "200" onclick="refreshPage();">
+        <h3 class="red-txt">
+        RED CAR WINS!
+        </h3>
+        <h3 class="win-txt">
+        Click image to play again
+        </h3>
+    </div>
+
+    <div id="bluecarwin">
+      <img src="rallyx.jpg" alt="blue car" width = "200" onclick="refreshPage();" >
+        <h3 class="blue-txt">
+        BLUE CAR WINS!
+        </h3>
+        <h3 class="win-txt">
+          Click image to play again
+          </h3>
+    </div>
+        
+    <script src="scripts.js"></script>
+
+  </body>
+</html>
